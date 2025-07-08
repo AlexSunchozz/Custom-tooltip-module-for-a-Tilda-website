@@ -1,0 +1,27 @@
+ .tooltip {
+        cursor: pointer;
+    }
+    .tooltip:hover .tn-atom {
+        opacity: 1 !important;
+        transition: opacity 0.3s ease-in-out;
+    }
+    .tooltip .tn-atom:has(img.active) {
+        opacity: 1 !important;
+        transition: opacity 0.3s ease-in-out;
+    }
+    .tooltip-content.active .tn-atom {
+        opacity: 1 !important;
+        transition: opacity 0.3s ease-in-out;
+    }
+    .tooltip-content .tn-atom {
+        opacity: 0 !important;
+        transition: opacity 0.3s ease-in-out;
+    }
+    .tooltip-content-text.active .tn-atom {
+        opacity: 1 !important;
+        transition: opacity 0.3s ease-in-out;
+    }
+    .tooltip-content-text .tn-atom {
+        opacity: 0 !important;
+        transition: opacity 0.3s ease-in-out;
+    }
